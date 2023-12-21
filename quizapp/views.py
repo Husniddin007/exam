@@ -46,3 +46,5 @@ def result_list(request):
         'results': results
     }
     return render(request, 'quizapp/result_list.html', context)
+
+
